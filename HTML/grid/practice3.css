@@ -1,0 +1,186 @@
+/* .gridbox{
+    height: 600px;
+    width: 800px;
+    background-color: bisque;
+
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 160px 160px 160px 160px 160px;
+}
+
+.Box{
+    border: 3px solid white;
+   
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Box1{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Box2{
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Box3{
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Box4{
+    
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Box5{
+   
+    grid-column-start: 5;
+    grid-column-end: 6;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+.Box6{
+  
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Box7{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Box8{
+   
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Box9{
+    
+    grid-column-start: 4;
+    grid-column-end: 6;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+.Boxa{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Boxb{
+ 
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Boxc{
+  
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Boxd{
+  
+    grid-column-start: 5;
+    grid-column-end: 6;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+} */
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gridbox {
+    height: 600px;
+    width: 800px;
+
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.Box {
+     background-color: #ffffff;
+    border-radius: 6px;
+      
+    box-shadow: 6px 10px 20px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ROW 1 - 5 equal boxes */
+.box1 { grid-column: 1 / 2; grid-row: 1 / 2; }
+.box2 { grid-column: 2 / 3; grid-row: 1 / 2; }
+.box3 { grid-column: 3 / 4; grid-row: 1 / 2; }
+.box4 { grid-column: 4 / 5; grid-row: 1 / 2; }
+.box5 { grid-column: 5 / 6; grid-row: 1 / 2; }
+
+/* ROW 2 - last box wide (spans col 4-5) */
+.box6 { grid-column: 1 / 2; grid-row: 2 / 3; }
+.box7 { grid-column: 2 / 3; grid-row: 2 / 3; }
+.box8 { grid-column: 3 / 4; grid-row: 2 / 3; }
+.box9 { grid-column: 4 / 6; grid-row: 2 / 3; }
+
+/* ROW 3 - 2nd box wide (spans col 2-3) */
+.boxa { grid-column: 1 / 2; grid-row: 3 / 4; }
+.boxb { grid-column: 2 / 4; grid-row: 3 / 4; }
+.boxc { grid-column: 4 / 5; grid-row: 3 / 4; }
+.boxd { grid-column: 5 / 6; grid-row: 3 / 4; }

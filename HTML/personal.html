@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <center>
+   <from> 
+      <h1>Personal Details</h1>
+
+      <label>Name:</label>
+      <input type="text" name="name"><br><br>
+
+      <label>Password:</label>
+      <input type="password" name="password"><br><br>
+
+      <label>E-mail id:</label>
+      <input type="email" name="email"><br><br>
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female<br><br>
+
+      <label>Contact#:</label>
+      <input type="text" name="contact"><br><br>
+
+      <h2>Educational Qualification</h2>
+
+      <label>Degree:</label>
+
+      <select name="degree">
+        <option value="">-- Select Group --</option>
+        <option value="10th">10th</option>
+        <option value="12th">12th</option>
+        <option value="graduate">Graduate</option>
+      </select><br><br>
+
+      <label>Engineering:</label>
+      <select name="engineering">
+        <option value="">-- Select Group --</option>
+        <option value="cse">CSE</option>
+        <option value="mechanical">Mechanical</option>
+        <option value="civil">Civil</option>
+      </select><br><br>
+
+      <label>Hobbies:</label>
+      <input type="checkbox" name="hobbies" value="chess"> Playing chess
+      <input type="checkbox" name="hobbies" value="reading"> Reading Books<br><br>
+
+      <h2>Address</h2>
+      <textarea name="address" rows="5" cols="40"></textarea><br><br>
+
+      <label>Attach Resume:</label>
+      <input type="file" name="resume"><br><br>
+
+      <button type="submit">SUBMIT</button>
+    </from> 
+
+
+    <br><br>
+
+    <form onsubmit="alert('qwertt')" action="./home.html" method="get">
+      <input type="text" placeholder="enter username" name="employname">
+      <br><br>
+      <input type="email" placeholder="enter email" required>
+      <br><br>
+      <input type="password" placeholder="enter password" required minlength="5" maxlength="10" pattern="[a-z,A-Z]" name="pass">
+      <br><br>
+
+      <button>submit</button>
+      <button type="reset"> reset</button>
+      <br><br>
+
+      <select name="branches">
+        <option value="exellent">Delhi</option>
+        <option value="besy">gurugarm</option>
+        <option value="good">noida</option>
+      </select>
+      <br><br>
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gendre" value="male">male
+        <input type="radio" name="gendre" value="female">female
+        <input type="radio" name="gendre" value="gay">gay
+          <br><br>
+          <fieldset>
+              <legend>Skills</legend>
+               <input type="checkbox" name="Skills" value="java">java
+               <input type="checkbox"  name="skills" value="sql">sql
+               <input type="checkbox"  name="skills" value="aws">aws
+               <input type="checkbox"  name="skills" value="dsa">dsa
+               <input type="checkbox"  name="skills" value="docker">docker
+           </fieldset>
+           <br><br>
+        <button>Submit</button>
+        <br><br>
+      </fieldset>
+    </form>
+  </center>
+  <br>
+  <!-- <h1 style="color: red;">Heading</h1>
+<h2>heading 2</h2>
+<style>
+  h2{
+    color: coral;
+  } -->
+</style>
+<link rel="stylehseet" href="style.css">
+
+
+</body>
+
+</html>

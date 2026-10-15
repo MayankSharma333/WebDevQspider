@@ -1,0 +1,62 @@
+/* .box{
+    height: 200px;
+    width:200px;
+    background-color: red;
+    border: 5px solid ;
+}
+.mainBox{
+    background-color: yellow;
+    position: absolute;
+    top:0;
+    left: 0;
+} */
+/* nav{
+    height:8vh;
+    width:100vw;
+    background-color: yellow;
+    position: sticky;
+    top: 50px;
+} */
+.flexContainer{
+    height: 1000px;
+    width: 1000px;
+    background-color: black;
+
+    display:flex;
+/* 
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+
+    flex-direction:row ;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse; */
+    
+    flex-wrap:nowrap ;
+    flex-wrap:wrap-reverse ;
+    flex-wrap:wrap ;
+
+    align-content: center;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+
+    gap:20px;
+
+}
+.flexitem{
+    height: 150px ;
+    width: 150px;
+    background-color: white;
+    border: 2px solid red;
+}

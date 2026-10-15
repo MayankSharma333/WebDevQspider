@@ -1,0 +1,126 @@
+/* @import url('./home.css');
+@import url('./about.css');
+
+h1{
+    color : pink;
+} */
+ /* .head1{
+    color:black;
+    background-color: lightpink;
+ }
+ .head2{
+    color:black;
+    background-color: lightpink;
+ }
+ .head4{
+    color: black;
+    background-color: lightpink;
+ }
+ .head3{
+    color: black;
+    background-color: lightpink;
+ }
+ p{
+    color: black;
+    background-color: lightpink;
+ }
+ #head1,.head,p{
+    padding: 20px;
+    border-radius:20px;
+ } */
+  /* descendent selector */
+  /* .box p{
+    color: white;
+    background-color: black;
+  } */
+
+
+  /* child selector */
+  /* .box>p{
+    color: white;
+    background-color: pink;
+  } */
+
+/* adjacent/ immediate sibling selector */
+/* .head1+p{
+    color: blue;
+    background-color: white;
+} */
+
+/* general sibling selector */
+/* 
+.head~p{
+    color: pink;
+    background-color: white;
+} */
+/* 
+input[type="text"]{
+    background-color: lightskyblue;
+
+}
+img[alt="htmlImage"]{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+border:10px solid black;
+
+}
+
+input[type="password"]{
+    background-color: black;
+} */
+
+/* button:hover{
+   background-color: pink;
+   color :cornsilk;
+}
+button{
+   background-color: blue;
+   color:white;
+}
+input:checked+label{
+   color:brown;
+}
+li:first-child{
+   color: aqua;
+}
+li:last-child{
+   color:brown;
+}
+li:nth-child(3){
+color:orange;
+}
+P::first-letter{
+   color:green;
+}
+p::first-line{
+   background-color: yellow;
+   color:black;
+}
+p::before{
+content: "Hi, I am Batman....";
+} */
+
+/* body{
+   color:red;
+}
+.parent{
+   height:500px;
+   width:700px;
+   background-color: black;
+   font-size: 50px;
+}
+.child{
+   height:30%;`
+   width:30%;
+   background-color: white;
+   border: 5px solid red;
+   /*font-size:4em;*/
+   /* font-size: 4rem;
+} */ 
+ 
+div{
+   height: 50vh;
+   width:10vh;
+   background-color: red;
+}
